@@ -95,7 +95,7 @@ function readSingleFile(e) {
       // Show Error four Groups
       var div = document.createElement('div');
       div.className = 'col-sm';
-      div.innerHTML = "<p>If this is no group chat you have probably copy-pased a chat in your chat. Please open your chat file and eliminate the other people.</p>";
+      div.innerHTML = "<p>If this is not a group chat you have probably copy-pased a chat in your chat. Please open your chat file and eliminate the other people.</p>";
       var erG = document.getElementById("groupInfo");
       erG.appendChild(div);
       erG.style.display = "block";
